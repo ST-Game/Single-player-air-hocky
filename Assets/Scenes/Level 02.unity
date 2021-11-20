@@ -401,6 +401,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3450012001909044554, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450012001909044554, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450012002799356529, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 144.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450012002799356529, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 24.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450012002799356529, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -130.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450012002799356529, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -347.79
+      objectReference: {fileID: 0}
     - target: {fileID: 3450012003489491762, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
       propertyPath: m_Name
       value: Restart Button
@@ -449,6 +473,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450012003808586930, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
 --- !u!1 &2101793479

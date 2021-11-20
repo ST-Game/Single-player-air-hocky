@@ -240,8 +240,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12, y: -724}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 25.1, y: -272}
+  m_SizeDelta: {x: 120.82, y: 19.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1192894829
 MonoBehaviour:
@@ -290,8 +290,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -956,9 +956,9 @@ Canvas:
   m_GameObject: {fileID: 2115861476}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
+  m_PlaneDistance: 7.4
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -966,7 +966,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!1001 &3450012002684159529
 PrefabInstance:
@@ -975,6 +975,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3450012001909044554, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450012001909044554, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450012002799356529, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 144.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450012002799356529, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 24.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450012002799356529, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -130.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450012002799356529, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -347.79
+      objectReference: {fileID: 0}
     - target: {fileID: 3450012003489491762, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
       propertyPath: m_Name
       value: Restart Button
@@ -1023,6 +1047,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3450012003808586930, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cd67d123ecc4781b811a2b7af160ef, type: 3}
 --- !u!1001 &4459322464389115283
